@@ -1,3 +1,3 @@
 ### bash
 toilet Laba --gay
-clang++ -o laba.out main.cpp
+clang -o laba.out main.cpp
