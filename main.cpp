@@ -1,7 +1,17 @@
 #include <iostream>
 
+int LAB_NUM = 1; // Select the lab. work
+
 int main ()
 {
+	if (LABA_NUM == 2)
+	{
+		return 0;
+	}
+
+	if (LABA_NUM == 1)
+	{
+
 	int A;
 	float B;
 	float SUM;
@@ -17,4 +27,6 @@ int main ()
 	std::cout << "\nSum equals " << SUM << "\n";
 
 	return 0;
+
+	}
 }
