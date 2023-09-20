@@ -1,10 +1,42 @@
 #include <iostream>
+#include <math.h>
 
-int LAB_NUM = 2; // Select the lab. work
+#define _USE_MATH_DEFINES
+
+short int LAB_NUM = 2; // Select the lab. work
 
 int main ()
 {
 	if (LAB_NUM == 2)
+	{
+		double f, buf_1, buf_2;
+		float x = 8.8, y = 5.8;
+		int k, m, n, i;
+		
+		buf_1 = (3 * y) - x;
+		buf_2 = x * sin(y * y);
+		f = (M_PI/3) + log(pow(x, 3));
+		f = (f/buf_1) + buf_2;
+
+		k = f;
+		i = ceil(f);
+		m = floor(f);
+		n = static_cast<int>(f);
+
+		std::cout << "Result (f) = " << f << "\n";
+		std::cout << "i = " << i << "\n";
+		std::cout << "m = " << m << "\n";
+		std::cout << "k = " << k << "\n";
+		std::cout << "n = " << n << "\n";
+		std::cout << "++k = " << ++k << "\n";
+		std::cout << "n++ = " << n++ << "\n";
+		std::cout << "k after ++k = " << k << "\n";
+		std::cout << "n after n++ = " << n << "\n";
+
+	}
+
+	// Lecture 19.09.2023
+	if (LAB_NUM == -1)
 	{
 		int a, b, c;
 		float D;
