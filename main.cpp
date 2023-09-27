@@ -3,10 +3,31 @@
 
 #define _USE_MATH_DEFINES
 
-short int LAB_NUM = 2; // Select the lab. work
+short int LAB_NUM = 3; // Select the lab. work
+
+void func3 (double x, double y, double& z)
+{
+	double buf_1 = (3 * y) - x;
+	double buf_2 = x * sin(y * y);
+	z = (M_PI/3) + log(pow(x, 3));
+	z = (z/buf_1) + buf_2;
+}
 
 int main ()
 {
+	if (LAB_NUM == 3)
+	{
+		double x = 8.8, y = 5.8, z = 0;
+
+		std::cout << " Input x = ";
+		std::cin >> x;
+		std::cout << "\n" << " Input y = ";
+		std::cin >> y;
+
+		func3(x,y,z);
+		std::cout << "\n" << " Result z = " << z << "\n";
+	}
+
 	if (LAB_NUM == 2)
 	{
 		double f, buf_1, buf_2;
@@ -16,7 +37,7 @@ int main ()
 		buf_1 = (3 * y) - x;
 		buf_2 = x * sin(y * y);
 		f = (M_PI/3) + log(pow(x, 3));
-		f = (f/buf_1) + buf_2;
+		f = f/buf_1 + buf_2;
 
 		k = f;
 		i = ceil(f);
