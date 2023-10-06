@@ -1,17 +1,9 @@
 #include <iostream>
 #include <math.h>
 
-#define _USE_MATH_DEFINES
-
 short int LAB_NUM = 3; // Select the lab. work
 
-void func3 (double x, double y, double& z)
-{
-	double buf_1 = (3 * y) - x;
-	double buf_2 = x * sin(y * y);
-	z = (M_PI/3) + log(pow(x, 3));
-	z = (z/buf_1) + buf_2;
-}
+void func3 (double x, double y, double& z);
 
 int main ()
 {
@@ -106,4 +98,22 @@ int main ()
 		return 0;
 
 	}
+}
+
+void func3 (double x, double y, double& z)
+{
+	double buf_1 = (3 * y) - x;
+	double buf_2 = x * sin(y * y);
+	z = (M_PI/3) + log(pow(x, 3));
+	z = (z/buf_1) + buf_2;
+}
+
+double func1(double x, double y)
+{
+	double z;
+   	double buf_1 = (3 * y) - x;
+	double buf_2 = x * sin(y * y);
+	z = (M_PI/3) + log(pow(x, 3));
+	z = (z/buf_1) + buf_2;
+   	return z;     
 }
