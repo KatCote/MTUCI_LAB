@@ -8,7 +8,7 @@ echo "\n"
 toilet Laboratory Work --gay -f smbraille
 echo "\n"
 
-if clang++ -o laba.out main.cpp;
+if clang++ -o laba.out main.cpp lab4.cpp;
 then
 	echo "${GREEN}Compile Successful${NC}\n"
 	chmod +x laba.out

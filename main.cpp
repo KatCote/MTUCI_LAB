@@ -1,12 +1,16 @@
-#include <iostream>
-#include <math.h>
+#include "global.h"
 
-short int LAB_NUM = 3; // Select the lab. work
+short int LAB_NUM = 4; // Select the lab. work
 
 void func3 (double x, double y, double& z);
 
 int main ()
 {
+	if (LAB_NUM == 4)
+	{
+		lab4();
+	}
+
 	if (LAB_NUM == 3)
 	{
 		double x = 8.8, y = 5.8, z = 0;
