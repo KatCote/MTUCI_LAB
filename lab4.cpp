@@ -8,13 +8,14 @@ double hcl(double R)
 }
 
 void lab4()
-{ std::cout <<
-	"Result: " <<
-	hcl(3) +
-	hcl(2) +
-	hcl(2.5) +
-	hcl(1) <<
-	'\n';
-}
+{ 
+	double res = 0;
 
+	res += hcl(3);
+	res += hcl(2);
+	res += hcl(2.5);
+	res += hcl(1);
+
+	std::cout << res << std::endl;
+}
 

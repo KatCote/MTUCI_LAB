@@ -1,11 +1,23 @@
 #include "global.h"
 
-short int LAB_NUM = 4; // Select the lab. work
+short int LAB_NUM = 60; // Select the lab. work
 
 void func3 (double x, double y, double& z);
+void lab4();
+void lab60();
 
 int main ()
 {
+	if (LAB_NUM == 60)
+	{
+		lab60();
+	}
+
+	if (LAB_NUM == 5)
+	{
+		lab4();
+	}
+
 	if (LAB_NUM == 4)
 	{
 		lab4();

@@ -4,6 +4,4 @@
 #include <iostream>
 #include <math.h>
 
-void lab4();
-
 #endif
