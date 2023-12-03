@@ -1,4 +1,5 @@
-#include "global.h"
+#include <iostream>
+#include <math.h>
 
 double hcl(double R)
 {
@@ -7,7 +8,7 @@ double hcl(double R)
 	return res;
 }
 
-void lab4()
+void main()
 { 
 	double res = 0;
 

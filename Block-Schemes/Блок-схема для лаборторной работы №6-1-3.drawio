@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-12-02T09:19:38.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="e68LxeXxeUBdKfVXaHeW" version="22.1.2" type="device">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="523" dy="470" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="duzxFuz499XpBN5VaYQ0-2" value="" style="group;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="360" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4oTWKZa-oMYPQXvp2SXr-9" value="&lt;b&gt;Resh1(x,y)&lt;/b&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=14;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;" parent="duzxFuz499XpBN5VaYQ0-2" vertex="1">
+          <mxGeometry width="119.99999999999999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="130" as="sourcePoint" />
+            <mxPoint x="420" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-13" value="" style="group;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="360" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-10" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;" parent="duzxFuz499XpBN5VaYQ0-13" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Resh1 = true&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;" parent="duzxFuz499XpBN5VaYQ0-13" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-14" value="" style="group;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-15" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;" parent="duzxFuz499XpBN5VaYQ0-14" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Resh1 = false&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;" parent="duzxFuz499XpBN5VaYQ0-14" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-17" value="" style="group;labelBackgroundColor=none;fontFamily=Helvetica;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-18" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;fontFamily=Helvetica;fontSize=14;fillColor=none;labelBackgroundColor=none;labelBorderColor=none;" parent="duzxFuz499XpBN5VaYQ0-17" vertex="1">
+          <mxGeometry width="119.99999999999999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Конец&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;" parent="duzxFuz499XpBN5VaYQ0-17" vertex="1">
+          <mxGeometry width="119.99999999999999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duzxFuz499XpBN5VaYQ0-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="duzxFuz499XpBN5VaYQ0-19" edge="1" source="duzxFuz499XpBN5VaYQ0-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="520" as="sourcePoint" />
+            <mxPoint x="350" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmF1lUIxUgk8CuS8iypQ-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="duzxFuz499XpBN5VaYQ0-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="540" as="sourcePoint" />
+            <mxPoint x="420" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cmF1lUIxUgk8CuS8iypQ-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmF1lUIxUgk8CuS8iypQ-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Параметры логической&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;функции Resh2():&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;x, y - переменные функции&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cmF1lUIxUgk8CuS8iypQ-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cmF1lUIxUgk8CuS8iypQ-6" value="x" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
